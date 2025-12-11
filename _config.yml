@@ -22,8 +22,8 @@ title: Portfolio
 email: qbryan303@example.com
 #description: >- # this means to ignore newlines until "baseurl:"
   #Esta pagina esta dedicada para mostrar mi portafolio profesional
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Bryan-Quintanilla-Portfolio" # the subpath of your site, e.g. /blog
+url: "https://vintailsz.github" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BryanQu97341182
 github_username:  Vintailsz
 
