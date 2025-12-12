@@ -777,12 +777,22 @@ table td {
 
 /*# sourceMappingURL=main.css.map */
 
-html, body {
+html,
+body {
   background-color: #0f0f0f !important;
   color: #e6e6e6 !important;
 }
 
-p, span, li, a, h1, h2, h3, h4, h5, h6 {
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #e6e6e6 !important;
 }
 
@@ -798,6 +808,22 @@ img {
   border-radius: 12px !important;
 }
 
+.card img {
+  max-height: 200px;
+  object-fit: contain;
+}
+
 .section-title {
   color: #fff !important;
+}
+
+.rounded-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
