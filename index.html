@@ -3,75 +3,97 @@ layout: default
 title: Inicio
 ---
 
-<section class="hero">
-  <div class="hero-text">
-    <h1 class="hero-title">Bryan Marcelo Quintanilla Shiguango</h1>
+<section class="container py-5">
+  <div class="row align-items-center">
 
-    <p class="hero-desc">
-      Estudiante universitario, cursando el ultimo ciclo de la Carrera de Sistemas de Información,
-      me gusta aprender nuevas cosas y experimentar con nuevos desafios, me apasiona la programacion basada en la
-      arquitectura de microservicios (API RESTFUL), actualmente apuntando a una oportunidad laboral en el amplio mundo
-      de la tecnologia.
-    </p>
+    <div class="col-lg-6 mb-4">
+      <h1 class="hero-title fw-bold">
+        Bryan Marcelo Quintanilla Shiguango
+      </h1>
+
+      <p class="hero-desc mt-3">
+        Estudiante universitario, cursando el ultimo ciclo de la Carrera de Sistemas de Información,
+        me gusta aprender nuevas cosas y experimentar con nuevos desafios, me apasiona la programacion basada en la
+        arquitectura de microservicios (API RESTFUL), actualmente apuntando a una oportunidad laboral en el amplio mundo
+        de la tecnologia.
+      </p>
+    </div>
+
+    <div class="col-lg-6 text-center">
+      <img src="{{ '/assets/img/yo.jpg' | relative_url }}" alt="Mi fotico"
+        class="img-fluid rounded-circle border border-dark" style="width: 280px; height: 280px; object-fit: cover;">
+    </div>
 
   </div>
-
-  <img src="{{ '/assets/img/yo.jpg' | relative_url }}" alt="Mi fotico">
 </section>
 
-<h2 class="section-title">Educación y Experiencia</h2>
+<h2 class="section-title text-center mt-5">Educación y Experiencia</h2>
 
-<div class="info-grid">
+<div class="container py-4">
+  <div class="row g-4">
 
-  <div class="card">
-    <h3>Experiencia Laboral</h3>
-    <ul>
-      <li>Sin experiencia laboral previa</li>
-    </ul>
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Experiencia Laboral</h3>
+        <ul>
+          <li>Sin experiencia laboral previa</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Educación</h3>
+        <ul>
+          <li>Unidad Educativa “Semillas de Vida” – Educación Básica (2008 - 2014)</li>
+          <li>Unidad Educativa 14 de Julio - JAE – Bachillerato General Unificado (2014 - 2020)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Idiomas</h3>
+        <ul>
+          <li>Inglés: A1 - A2</li>
+          <li>Italiano: B1</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Certificados</h3>
+        <ul>
+          <li>Consejos Financieros – CRISFE Fundación</li>
+          <li>Certificado de Inglés – Triumph Foundation / American</li>
+          <li>Operador Digital en Sistemas – UNADFA / P.E.N.T.A</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Aptitudes</h3>
+        <ul>
+          <li>Adaptabilidad</li>
+          <li>Aprendizaje Continuo</li>
+          <li>Organización</li>
+          <li>Trabajo en Equipo</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-light p-3 h-100">
+        <h3 class="text-info">Contacto</h3>
+        <p><strong>Teléfono:</strong> 0983319556</p>
+        <p><strong>Email:</strong> qbryan303@gmail.com</p>
+        <p><strong>Ubicación:</strong> Cotopaxi, Latacunga, San Buenaventura</p>
+        <p><a href="https://github.com/Vintailsz" class="text-info">GitHub</a></p>
+        <p><a href="https://twitter.com/BryanQu97341182" class="text-info">Twitter</a></p>
+      </div>
+    </div>
+
   </div>
-
-  <div class="card">
-    <h3>Educación</h3>
-    <ul>
-      <li>Unidad Educativa “Semillas de Vida” – Educación Básica (2008 - 2014)</li>
-      <li>Unidad Educativa 14 de Julio - JAE – Bachillerato General Unificado (2014 - 2020)</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Idiomas</h3>
-    <ul>
-      <li>Inglés: A1 - A2</li>
-      <li>Italiano: B1</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Certificados</h3>
-    <ul>
-      <li>Consejos Financieros – CRISFE Fundación</li>
-      <li>Certificado de Inglés – Triumph Foundation / American</li>
-      <li>Operador Digital en Sistemas – UNADFA / P.E.N.T.A</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Aptitudes</h3>
-    <ul>
-      <li>Adaptabilidad</li>
-      <li>Aprendizaje Continuo</li>
-      <li>Organización</li>
-      <li>Trabajo en Equipo</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Contacto</h3>
-    <p><strong>Teléfono:</strong> 0983319556</p>
-    <p><strong>Email:</strong> qbryan303@gmail.com</p>
-    <p><strong>Ubicación:</strong> Cotopaxi, Latacunga, San Buenaventura</p>
-    <p><a href="https://github.com/Vintailsz">GitHub</a></p>
-    <p><a href="https://twitter.com/BryanQu97341182">Twitter</a></p>
-  </div>
-
 </div>
