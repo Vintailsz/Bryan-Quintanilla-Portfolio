@@ -821,3 +821,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+header.site-header {
+  border-top: #212529 !important;
+  border-bottom: #1A1A1A !important;
+}
